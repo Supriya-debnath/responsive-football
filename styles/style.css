@@ -10,7 +10,7 @@
 }
 
 /*===========================================================
-                         banner section
+                         banner section start
 ============================================================= */
 /* top section */
 .container-1{
@@ -33,13 +33,15 @@
     height: 230px;
 }
 .button{
-    width: 138px;
-    height: 40px;  
+    color: #E02C6D;
+    width: 238px;
+    height: 40px; 
+
 }
 .button:hover{ 
     color: #FFFFFF;
     background: #E02C6D; 
-    transition: transform 1s ease-out 0.3s;
+    transition: transform 1s ease-in 0.3s;
 }
 
 .banner-img img{
@@ -49,6 +51,9 @@
     padding-top: 120px;
   
 }
+/*===========================================================
+                         banner section end
+============================================================= */
 
 /*============================================================ 
                     player photo section start
@@ -91,7 +96,7 @@
 }
 
 /* ============================================================
-                    Photo section end
+                     player Photo section end
 ================================================================ */
 
 
@@ -152,7 +157,7 @@
 ================================================================= */
 
 /* =============================================================
-                     section start
+                     tram names section start
 ================================================================= */
 .container-3{
 width: 100%;
@@ -166,12 +171,60 @@ left: 1300px;
     height: 230px;
 }
 
-    .peragraph{
-        font-size: 15px;
-    }
+.peragraph{
+    font-size: 15px;
+}
 
 /* ============================================================
                     team names section end
+================================================================= */
+
+/* ============================================================
+                    footer section start
+================================================================= */
+ul, li{
+    list-style: none;
+}
+ /* .footer-section{ 
+    width: 483.87px;
+    height: 213px;
+    left: 475px;
+     top: 3474px;
+} 
+ */
+.footer-img img{
+    width:483.87px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 387px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 15px;
+    
+}
+.footer-icon a{
+    padding-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.copy-right p{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+} 
+
+/* ============================================================
+                    footer section end
 ================================================================= */
 
 
